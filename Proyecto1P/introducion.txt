@@ -1,0 +1,35 @@
+Objetivos 
+General: 
+
+Diseñar e implementar un sistema web de gestión de inventario tecnológico para la FISEI, desarrollando la base de datos desde el modelo conceptual hasta el diseño físico en Oracle, e integrando una interfaz amigable, usable y segura para la gestión de equipos, préstamos, mantenimientos y reportes. 
+
+Específicos: 
+
+Levantar y organizar los requerimientos funcionales y no funcionales del sistema.  
+
+Describir el problema en lenguaje del mundo real, definiendo entidades, relaciones y reglas de negocio. 
+
+Construir el modelo conceptual entidad–relación del sistema. 
+
+Transformar el modelo conceptual al modelo lógico relacional y verificar su consistencia. 
+
+Aplicar criterios de normalización hasta una estructura estable y libre de redundancias innecesarias. 
+
+Introducción  
+
+La Facultad de Ingeniería en Sistemas, Electrónica e Industrial administra equipos tecnológicos distribuidos en laboratorios, aulas y oficinas. El control manual de estos bienes dificulta el seguimiento de su ubicación, la trazabilidad de los mantenimientos, el control de préstamos y la generación de reportes oportunos. Por ello se propone un sistema integral que permita registrar, consultar, prestar, mantener y auditar los activos tecnológicos mediante una solución web apoyada en una base de datos relacional implementada en Oracle. El presente proyecto ha sido diseñado como una guía académica integral. Su propósito no es únicamente crear tablas, sino llevar al estudiante a comprender la secuencia completa del diseño de datos: identificación del problema, levantamiento de requerimientos, formulación de reglas de negocio, diseño conceptual, transformación al modelo lógico relacional, normalización, implementación física en Oracle y construcción de una interfaz amigable para el usuario final. 
+
+ 
+
+Planteamiento del Problema 
+
+En la gestión del inventario tecnológico de la Facultad de Ingeniería en Sistemas, Electrónica e Industrial se presentan diversas dificultades que afectan su correcto control y administración. El manejo manual de los equipos distribuidos en laboratorios, aulas y oficinas provoca pérdida de información, inconsistencias en los registros, desconocimiento del estado real de los bienes y demoras al momento de ubicar equipos disponibles. Además, se evidencia la ausencia de un historial organizado de mantenimientos, la falta de control eficiente de préstamos y devoluciones, así como la inexistencia de alertas oportunas, lo que limita la trazabilidad de los activos y dificulta la generación de reportes confiables para la toma de decisiones. 
+
+Estas problemáticas impactan directamente en la eficiencia operativa de la institución, evidenciando la necesidad de una solución tecnológica integral. Por ello, se propone el desarrollo de un sistema web con arquitectura modular, respaldado por una base de datos relacional implementada en Oracle, que permita centralizar y gestionar toda la información del inventario tecnológico. Este sistema deberá facilitar el registro de equipos, el control de ubicaciones y responsables, la gestión de préstamos y devoluciones, la administración de mantenimientos, la generación de notificaciones y la trazabilidad de todas las acciones realizadas por los usuarios, garantizando así un control más eficiente, seguro y oportuno de los activos. 
+ 
+
+Alcance  
+
+El sistema incluye los procesos básicos del inventario tecnológico, como el registro y organización de los equipos, la asignación a distintas ubicaciones, el control de responsables, y la gestión de préstamos y devoluciones. También permite llevar un control de los mantenimientos, registrar movimientos, generar alertas, y administrar usuarios junto con el seguimiento de las operaciones. 
+
+La solución está pensada como una plataforma web sencilla Y accesible, la cual contará con un panel de control, opciones de búsqueda, formularios, reportes y herramientas para ver el historial de los equipos dentro de la institución. 
